@@ -46,11 +46,3 @@ export default function DogList2() {
     
 }
 
-const animals = ['cat', 'giraffe', 'elephant', 'dog'];
-
-// Goal: show each animal's name and its length
-const result = animals.map((animal, index) => {
-    return `${index + 1}. ${animal} (${animal.length} letters)`;
-});
-
-console.log(result);
