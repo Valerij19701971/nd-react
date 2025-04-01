@@ -1,0 +1,23 @@
+.labas_zuiki {
+    border: 3px solid skyblue;
+    padding: 10px;
+    margin: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #f96f86;
+    background-color: rgba(191, 231, 247, 0.5);
+    border-radius: 5px;
+}
+
+.another_style {
+    background-color: lightgreen;
+    color: darkgreen;
+    font-size: 28px;
+    padding: 15px;
+    margin: 15px;
+    font-family: sans-serif;
+    border: 2px dashed green;
+    border-radius: 8px;
+    text-align: center;
+}
