@@ -1,15 +1,20 @@
-export default function DogSquare(props) {
+export default function DogSquare({dog, number}) {
     return (
         <div style={{
             width: '100px',
             height: '100px',
-            border: '2px solid black',
-            margin: '10px',
+            backgroundColor:' #f9b0e7',
+            color: '#333',
+            fontSize: '16px',
+            fontWeight: 'bold',
             display: 'flex',
+            justifyContent: 'center',
             alignItems: 'center',
-            justifyContent: 'center'
+            margin: '10px',
+            borderRadius:'10%',
+            boxShadow: '2px 2px 8px rgba(0,0,0,0.1)'
         }}>
-            {props.dog}
+            {number}. {dog} 
         </div>
     );
 }

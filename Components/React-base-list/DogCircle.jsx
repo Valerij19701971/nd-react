@@ -15,7 +15,7 @@ export default function DogCircle({ dog, number }) {
                 alignItems: 'center',
                 margin: '10px',
                 fontWeight: 'bold',
-                fontSize: '14px',
+                fontSize: '16px',
                 textAlign: 'center'
             }}
         >

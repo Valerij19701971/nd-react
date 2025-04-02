@@ -1,6 +1,4 @@
 
-
-
 import './App.css'
 import DogList1 from './Components/React-base-list/DogList1'
 import DogList2 from './Components/React-base-list/DogList2'
