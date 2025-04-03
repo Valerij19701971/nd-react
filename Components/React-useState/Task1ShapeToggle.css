@@ -1,0 +1,16 @@
+.circle, .square {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: teal;
+    transition: all 0.3s ease;
+  }
+  
+  .circle {
+    border-radius: 50%;
+  }
+  
+  .square {
+    border-radius: 0;
+  }
+  
