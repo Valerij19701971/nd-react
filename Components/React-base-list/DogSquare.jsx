@@ -1,9 +1,9 @@
-export default function DogSquare({dog, number}) {
+export default function DogSquare({dog, number, color}) {
     return (
         <div style={{
             width: '100px',
             height: '100px',
-            backgroundColor:' #f9b0e7',
+            backgroundColor: color ||' #f9b0e7',
             color: '#333',
             fontSize: '16px',
             fontWeight: 'bold',
@@ -14,7 +14,7 @@ export default function DogSquare({dog, number}) {
             borderRadius:'10%',
             boxShadow: '2px 2px 8px rgba(0,0,0,0.1)'
         }}>
-            {number}. {dog} 
+            {number} {dog} 
         </div>
     );
 }

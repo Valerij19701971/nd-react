@@ -2,14 +2,14 @@
 // dog → the name of the dog 🐕
 // number → the order in the list (1, 2, 3...)
 
-export default function DogCircle({ dog, number }) {
+export default function DogCircle({ dog, number, color }) {
     return (
         <div
             style={{
                 width: '100px',
                 height: '100px',
                 borderRadius: '50%',
-                backgroundColor: '#C59D2E',
+                backgroundColor: color ||'#C59D2E',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
@@ -19,7 +19,7 @@ export default function DogCircle({ dog, number }) {
                 textAlign: 'center'
             }}
         >
-            {number}. {dog}
+            {number} {dog}
         </div>
     );
 }
