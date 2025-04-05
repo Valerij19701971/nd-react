@@ -1,16 +1,15 @@
-import React from 'react';
+import React, { useState } from "react";
 import './App.css';
 
-import Task1ShapeToggle from './Components/React-useState/Task1ShapeToggle';
-
 function App() {
+  const [count, setCount] = useState(0); // state variable and setter
+
   return (
-    <div className="App">
-      <h1>React State Practice</h1>
-      <Task1ShapeToggle />
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increase</button>
     </div>
   );
 }
 
 export default App;
-
